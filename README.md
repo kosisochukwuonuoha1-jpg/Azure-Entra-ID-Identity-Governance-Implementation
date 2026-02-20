@@ -1,136 +1,133 @@
-    Azure Entra ID Identity Governance & Privileged Access Implementation
-  Project Overview
+🔐 Identity Governance & Privileged Access Management
+Microsoft Entra ID Security Project
+📌 Project Overview
 
-This project demonstrates the implementation of enterprise-grade identity security controls using Microsoft Entra ID (formerly Azure AD).
+This project demonstrates the implementation of Identity Governance and Privileged Access Management controls using Microsoft Entra ID.
 
-The focus was on reducing privilege risk, enforcing least privilege access, and implementing Zero Trust identity principles.
+The objective was to simulate an enterprise environment where privileged roles and security group memberships must be continuously reviewed to enforce least privilege and reduce insider threat risks.
 
-This lab simulates how modern organizations secure their cloud identity infrastructure.
+🎯 Objectives
 
-  Objectives
+Monitor privileged role assignments
 
-Eliminate standing privileged access
+Conduct structured access reviews
 
-Enforce Just-in-Time (JIT) administrative access
+Detect inactive users
 
-Implement identity governance controls
+Enforce least privilege access
 
-Reduce privilege creep
+Improve governance visibility
 
-Apply Zero Trust architecture principles
+🛠 Technologies Used
 
-Secure access using Conditional Access policies
-
-    Architecture Overview
-
-Environment Components:
-
-Microsoft Entra ID Tenant
+Microsoft Entra ID
 
 Privileged Identity Management (PIM)
 
-Role-Based Access Control (RBAC)
+Identity Governance
 
 Access Reviews
 
-Conditional Access Policies
+Security Groups
 
-Multi-Factor Authentication (MFA)
+Role-Based Access Control (RBAC)
 
-Security Model Applied:
+🏗 Architecture Flow
 
-Identity-first security
+Users
+⬇
+Security Group
+⬇
+Access Review Policy
+⬇
+Activity-Based Recommendations
+⬇
+Approve / Deny Decision
+⬇
+Automatic Access Update
 
-Least privilege
+This model ensures continuous governance of privileged access.
 
-Time-bound role activation
+🔧 Implementation Steps
+1️⃣ Privileged Role Review
 
-Continuous verification
+Reviewed Global Administrator role via PIM
 
-   Implementation Steps
-1.) Privileged Identity Management (PIM)
+Evaluated assignment type (Permanent vs Eligible)
 
-Converted permanent Global Administrator roles to Eligible assignments
+Analyzed risk exposure of permanent assignments
 
-Configured Just-in-Time activation
+2️⃣ Security Group Configuration
 
-Required MFA for role activation
+Created a Security Group
 
-Set approval workflow for sensitive roles
+Added test users
 
-Result:
-Reduced risk of privilege abuse and credential compromise.
+Simulated active and inactive account scenarios
 
-2.) Role-Based Access Control (RBAC)
+3️⃣ Access Review Setup
 
-Assigned roles based strictly on job function
+Initiated Access Review for group membership
 
-Eliminated excessive admin permissions
+Enabled recommendation engine
 
-Applied least privilege principle
+Configured review scope and reviewer
 
-Result:
-Minimized attack surface and insider threat exposure.
+4️⃣ Governance Enforcement
 
-3.) Identity Governance – Access Reviews
+Evaluated system recommendations
 
-Configured periodic access reviews
+Approved active users
 
-Assigned reviewers for role validation
+Denied inactive users
 
-Enabled automatic removal of unapproved access
+Enforced automatic access updates
 
-Result:
-Prevented privilege creep and orphaned account risk.
-
-4.) Conditional Access Policies
-
-Enforced MFA for privileged roles
-
-Restricted access based on risk conditions
-
-Applied location-based access controls
-
-Result:
-Strengthened Zero Trust posture and improved compliance.
-
- Security Impact
-
-✔ Reduced standing administrative privileges
-✔ Enforced time-bound elevated access
-✔ Implemented automated governance controls
-✔ Improved organizational security posture
-✔ Applied Zero Trust identity strategy
-
- Key Security Concepts Demonstrated
-
-Zero Trust Architecture
-
-Identity as the security perimeter
-
-Just-in-Time access
+🛡 Security Principles Applied
 
 Least Privilege
 
+Zero Trust Model
+
+Continuous Access Evaluation
+
+Risk-Based Decision Making
+
 Privileged Access Governance
 
-Conditional Access
+📈 Business Impact
 
-Role Segmentation
+This implementation demonstrates how organizations can:
 
- What This Project Demonstrates
+Reduce dormant privileged accounts
 
-This project reflects real-world cloud security engineering practices aligned with modern enterprise security requirements.
+Prevent privilege creep
 
-It showcases:
+Strengthen identity security posture
 
-Practical Azure security configuration
+Improve compliance readiness
 
-Governance-first mindset
+Maintain structured access lifecycle control
 
-Risk reduction strategy
+📚 Key Learning Outcomes
 
-Security control implementation
+Hands-on experience with PIM configuration
+
+Practical implementation of Access Reviews
+
+Understanding of privileged access risk mitigation
+
+Governance lifecycle management
+
+🚀 Future Enhancements
+
+Enforce Just-In-Time (JIT) activation
+
+Integrate Conditional Access policies
+
+Implement Identity Protection
+
+Automate reporting using Microsoft Graph AP
 
  Career Focus
 
