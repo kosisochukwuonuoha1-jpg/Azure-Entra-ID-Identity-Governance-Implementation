@@ -1,5 +1,5 @@
-🔐 Azure Entra ID Identity Governance & Privileged Access Implementation
-📌 Project Overview
+    Azure Entra ID Identity Governance & Privileged Access Implementation
+  Project Overview
 
 This project demonstrates the implementation of enterprise-grade identity security controls using Microsoft Entra ID (formerly Azure AD).
 
@@ -7,7 +7,7 @@ The focus was on reducing privilege risk, enforcing least privilege access, and 
 
 This lab simulates how modern organizations secure their cloud identity infrastructure.
 
-🎯 Objectives
+  Objectives
 
 Eliminate standing privileged access
 
@@ -21,7 +21,7 @@ Apply Zero Trust architecture principles
 
 Secure access using Conditional Access policies
 
-🏗 Architecture Overview
+    Architecture Overview
 
 Environment Components:
 
@@ -47,8 +47,8 @@ Time-bound role activation
 
 Continuous verification
 
-🔐 Implementation Steps
-1️⃣ Privileged Identity Management (PIM)
+   Implementation Steps
+1.) Privileged Identity Management (PIM)
 
 Converted permanent Global Administrator roles to Eligible assignments
 
@@ -61,7 +61,7 @@ Set approval workflow for sensitive roles
 Result:
 Reduced risk of privilege abuse and credential compromise.
 
-2️⃣ Role-Based Access Control (RBAC)
+2.) Role-Based Access Control (RBAC)
 
 Assigned roles based strictly on job function
 
@@ -72,7 +72,7 @@ Applied least privilege principle
 Result:
 Minimized attack surface and insider threat exposure.
 
-3️⃣ Identity Governance – Access Reviews
+3.) Identity Governance – Access Reviews
 
 Configured periodic access reviews
 
@@ -83,7 +83,7 @@ Enabled automatic removal of unapproved access
 Result:
 Prevented privilege creep and orphaned account risk.
 
-4️⃣ Conditional Access Policies
+4.) Conditional Access Policies
 
 Enforced MFA for privileged roles
 
@@ -94,7 +94,7 @@ Applied location-based access controls
 Result:
 Strengthened Zero Trust posture and improved compliance.
 
-📊 Security Impact
+ Security Impact
 
 ✔ Reduced standing administrative privileges
 ✔ Enforced time-bound elevated access
@@ -102,7 +102,7 @@ Strengthened Zero Trust posture and improved compliance.
 ✔ Improved organizational security posture
 ✔ Applied Zero Trust identity strategy
 
-💡 Key Security Concepts Demonstrated
+ Key Security Concepts Demonstrated
 
 Zero Trust Architecture
 
@@ -118,7 +118,7 @@ Conditional Access
 
 Role Segmentation
 
-🧠 What This Project Demonstrates
+ What This Project Demonstrates
 
 This project reflects real-world cloud security engineering practices aligned with modern enterprise security requirements.
 
@@ -132,7 +132,7 @@ Risk reduction strategy
 
 Security control implementation
 
-🚀 Career Focus
+ Career Focus
 
 Currently preparing for AZ-500 (Azure Security Engineer Associate) and deepening expertise in Cloud Identity & Access Management (IAM).
 
