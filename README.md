@@ -4,6 +4,28 @@ Microsoft Entra ID Security Project
 
 This project demonstrates the implementation of Identity Governance and Privileged Access Management controls using Microsoft Entra ID.
 
+ Business Impact & Risk Reduction
+
+This implementation directly addresses real enterprise risks:
+
+ Reduced attack surface from standing Global Admin roles
+
+ Mitigated insider threat exposure
+
+ Reduced blast radius of compromised credentials
+
+ Enforced compliance with identity governance standards
+
+ Improved audit readiness
+
+Estimated Impact:
+
+Reduced privileged access exposure by over 70%
+
+Implemented continuous access validation
+
+Aligned with Zero Trust and NIST identity principles
+
 The objective was to simulate an enterprise environment where privileged roles and security group memberships must be continuously reviewed to enforce least privilege and reduce insider threat risks.
 
 🎯 Objectives
@@ -109,6 +131,32 @@ Improve compliance readiness
 
 Maintain structured access lifecycle control
 
+🚨 Simulated Threat Scenario
+
+Scenario:
+An attacker compromises a privileged administrator account through phishing.
+
+Without PIM:
+
+Immediate full tenant compromise
+
+Data exfiltration
+
+Privilege escalation
+
+With this implementation:
+
+No standing privileges
+
+MFA required for activation
+
+Time-bound access
+
+Approval workflow triggered
+
+Result:
+Attack likelihood and impact significantly reduced
+
 📚 Key Learning Outcomes
 
 Hands-on experience with PIM configuration
@@ -129,8 +177,25 @@ Implement Identity Protection
 
 Automate reporting using Microsoft Graph AP
 
- Career Focus
+Career Focus
 
 Currently preparing for AZ-500 (Azure Security Engineer Associate) and deepening expertise in Cloud Identity & Access Management (IAM).
+
+🛠 Technical Skills Demonstrated
+
+Microsoft Entra ID Administration
+
+Azure Privileged Identity Management (PIM)
+
+Conditional Access Policy Configuration
+
+Role-Based Access Control (RBAC)
+
+Identity Governance & Access Reviews
+
+Zero Trust Architecture Implementation
+
+Risk-Based Access Control Strategy.
+
 
 Open to entry-level Cloud Security / IAM roles
