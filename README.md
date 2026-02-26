@@ -1,11 +1,10 @@
-🔐 Identity Governance & Privileged Access Management
+Identity Governance & Privileged Access Management
 Microsoft Entra ID Security Project
-📌 Project Overview
+Project Overview
 
 This project demonstrates the implementation of Identity Governance and Privileged Access Management controls using Microsoft Entra ID.
 
- Business Impact & Risk Reduction
-
+ BUSINESS IMPACT AND RISK IMPLEMENTATION
 This implementation directly addresses real enterprise risks:
 
  Reduced attack surface from standing Global Admin roles
@@ -28,8 +27,7 @@ Aligned with Zero Trust and NIST identity principles
 
 The objective was to simulate an enterprise environment where privileged roles and security group memberships must be continuously reviewed to enforce least privilege and reduce insider threat risks.
 
-🎯 Objectives
-
+OBJECTIVES
 Monitor privileged role assignments
 
 Conduct structured access reviews
@@ -40,8 +38,7 @@ Enforce least privilege access
 
 Improve governance visibility
 
-🛠 Technologies Used
-
+TECHNOLOGIES USED
 Microsoft Entra ID
 
 Privileged Identity Management (PIM)
@@ -54,8 +51,7 @@ Security Groups
 
 Role-Based Access Control (RBAC)
 
-🏗 Architecture Flow
-
+ARCHITECTURAL FLOW
 Users
 ⬇
 Security Group
@@ -70,8 +66,8 @@ Automatic Access Update
 
 This model ensures continuous governance of privileged access.
 
-🔧 Implementation Steps
-1️⃣ Privileged Role Review
+IMPLEMENTATION STEPS
+1.) Privileged Role Review
 
 Reviewed Global Administrator role via PIM
 
@@ -79,7 +75,7 @@ Evaluated assignment type (Permanent vs Eligible)
 
 Analyzed risk exposure of permanent assignments
 
-2️⃣ Security Group Configuration
+2.) Security Group Configuration
 
 Created a Security Group
 
@@ -87,7 +83,7 @@ Added test users
 
 Simulated active and inactive account scenarios
 
-3️⃣ Access Review Setup
+3.) Access Review Setup
 
 Initiated Access Review for group membership
 
@@ -95,7 +91,7 @@ Enabled recommendation engine
 
 Configured review scope and reviewer
 
-4️⃣ Governance Enforcement
+4.) Governance Enforcement
 
 Evaluated system recommendations
 
@@ -105,8 +101,7 @@ Denied inactive users
 
 Enforced automatic access updates
 
-🛡 Security Principles Applied
-
+SECURITY PRINCIPLES APPLIED
 Least Privilege
 
 Zero Trust Model
@@ -117,8 +112,7 @@ Risk-Based Decision Making
 
 Privileged Access Governance
 
-📈 Business Impact
-
+BUSINESS IMPACT
 This implementation demonstrates how organizations can:
 
 Reduce dormant privileged accounts
@@ -131,7 +125,7 @@ Improve compliance readiness
 
 Maintain structured access lifecycle control
 
-🚨 Simulated Threat Scenario
+SIMULATED THREAT SCENARIO
 
 Scenario:
 An attacker compromises a privileged administrator account through phishing.
@@ -157,8 +151,7 @@ Approval workflow triggered
 Result:
 Attack likelihood and impact significantly reduced
 
-📚 Key Learning Outcomes
-
+KEY LEARNING OUTCOMES
 Hands-on experience with PIM configuration
 
 Practical implementation of Access Reviews
@@ -167,8 +160,7 @@ Understanding of privileged access risk mitigation
 
 Governance lifecycle management
 
-🚀 Future Enhancements
-
+FUTURE ENHANCEMENTS
 Enforce Just-In-Time (JIT) activation
 
 Integrate Conditional Access policies
@@ -181,8 +173,7 @@ Career Focus
 
 Currently preparing for AZ-500 (Azure Security Engineer Associate) and deepening expertise in Cloud Identity & Access Management (IAM).
 
-🛠 Technical Skills Demonstrated
-
+TECHNICAL SKILLS DEMONSTRATED
 Microsoft Entra ID Administration
 
 Azure Privileged Identity Management (PIM)
